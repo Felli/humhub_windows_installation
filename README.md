@@ -24,7 +24,7 @@ The instalation assumes some settings in order to work:
 
 3. Add write permission using  "[_permission_humhub__RUN_as_ADMIN_.bat](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/_permission_humhub__RUN_as_ADMIN_.bat)"
    
-   It must be a folder run/execute from folder under the 'public root folder'
+   It must be a folder run/execute from folder under the 'public root folder'.
    
         For example: If web root folder is at C:\interpud\mysite\public\
 	             the .bat file must be at C:\interpud\mysite\
@@ -60,7 +60,7 @@ The instalation assumes some settings in order to work:
 6. Emulate cronojobs on Windos
 
   6.1. Copy folder "[cronojobs](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/cronojobs/)"
-   to under the 'public root folder'
+   to under the 'public root folder'.
    
 	For example: If web root folder is at C:\interpud\mysite\public\
 	            the "cronojobs" folder at C:\interpud\mysite\cronojobs\
