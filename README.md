@@ -7,9 +7,9 @@ HOW TO INSTALL HUMHUB UNDER IIS
 
 
 
-2. Add [a relative link](web.host) to public dir
+2. Add "[web.host](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/web.host)" to public dir
 
 
-3. Add write permission using  [a relative link](_permission_humhub__RUN_as_ADMIN_.bat) 
+3. Add write permission using  "[_permission_humhub__RUN_as_ADMIN_.bat](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/_permission_humhub__RUN_as_ADMIN_.bat)"
    
    it must be run/execute form under publics ISS folder to work
