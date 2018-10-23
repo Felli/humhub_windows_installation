@@ -23,12 +23,14 @@
 	             the .bat file must be at C:\interpud\mysite\
 
 
-4. To enable "pretyy URLs"
+4. To enable "pretty URLs"
 
-     Edit 
-	        common.php 
+     Edit
+	        common.php
+
      locate at
 	        public\protected\config\
+
      Add:
 
 ```php
