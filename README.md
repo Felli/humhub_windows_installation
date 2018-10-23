@@ -1,5 +1,16 @@
 ## HOW TO INSTALL HUMHUB UNDER IIS 
 
+IMPORTANT
+
+The instalation assumes some settings in order to work:
+
+   A. Humhub is at 'public root folder'.
+
+   B. The 'public root folder' is named "public" (not "www").
+
+
+
+### Steps
 
 1. Download zip version of Humhub from https://www.humhub.org/en/download
 
@@ -13,27 +24,20 @@
 
 3. Add write permission using  "[_permission_humhub__RUN_as_ADMIN_.bat](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/_permission_humhub__RUN_as_ADMIN_.bat)"
    
-   - Humhub is place on public root folder
-
-   - Public root folder is named "public" (not www")
-
-   - It must be run/execute form under publics IIS folder to work 
+   It must be a folder run/execute from folder under the 'public root folder'
    
-	For example: If web root folder is at C:\interpud\mysite\public
+        For example: If web root folder is at C:\interpud\mysite\public\
 	             the .bat file must be at C:\interpud\mysite\
 
 
-<<<<<<< HEAD
-4. To enable "pretty URLs"
-=======
 4. Create database, go to humhub web and finish the instalation
+
 
 
 5. To enable "pretty URLs"
 
      Edit
 	        common.php
->>>>>>> origin/master
 
      locate at
 	        public\protected\config\
@@ -52,3 +56,27 @@
 	    ]
 	];
 ```
+
+6. Emulate cronojobs on Windos
+
+  6.1. Copy folder "[cronojobs](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/cronojobs/)"
+   to under the 'public root folder'
+   
+	For example: If web root folder is at C:\interpud\mysite\public\
+	            the "cronojobs" folder at C:\interpud\mysite\cronojobs\
+
+  
+  6.2. Update all XML files
+  
+       6.2.1. Change on all XML files "my-humhub-web.com" to your real web name
+  
+       6.2.2. Update all paths on files from "x:\_path_to_my-humhub-web.com_\cronjobs\" to you path.
+
+
+  6.3. Open task manager and import the XMLs
+  
+       6.3.1. On server: Remember to set the task to run "Run whether user is logged on or not"
+
+
+
+
