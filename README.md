@@ -23,7 +23,10 @@
 	             the .bat file must be at C:\interpud\mysite\
 
 
-4. To enable "pretty URLs"
+4. Create database, go to humhub web and finish the instalation
+
+
+5. To enable "pretty URLs"
 
      Edit
 	        common.php
