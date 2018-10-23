@@ -59,21 +59,21 @@ The instalation assumes some settings in order to work:
 
 6. Emulate cronojobs on Windos
 
-  6.1. Copy folder "[cronojobs](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/cronojobs/)"
+6.1. Copy folder "[cronojobs](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/cronojobs/)"
        to under the 'public root folder'.
 
-         For example: If web root folder is at C:\interpud\mysite\public\
-                     the "cronojobs" folder at C:\interpud\mysite\cronojobs\
+   For example: If web root folder is at C:\interpud\mysite\public\
+               the "cronojobs" folder at C:\interpud\mysite\cronojobs\
 
   
-  6.2. Update all XML files
+6.2. Update all XML files
   
    6.2.1. Change on all XML files "my-humhub-web.com" to your real web name
   
    6.2.2. Update all paths on files from "x:\_path_to_my-humhub-web.com_\cronjobs\" to you path.
 
 
-  6.3. Open task manager and import the XMLs
+6.3. Open task manager and import the XMLs
   
    6.3.1. On server: Remember to set the task to run "Run whether user is logged on or not"
 
