@@ -26,8 +26,8 @@ The instalation assumes some settings in order to work:
    
    It must be a folder run/execute from folder under the 'public root folder'.
    
-        For example: If web root folder is at C:\interpud\mysite\public\
-	             the .bat file must be at C:\interpud\mysite\
+     For example: If web root folder is at C:\interpud\mysite\public\
+                  the .bat file must be at C:\interpud\mysite\
 
 
 4. Create database, go to humhub web and finish the instalation
@@ -60,10 +60,10 @@ The instalation assumes some settings in order to work:
 6. Emulate cronojobs on Windos
 
   6.1. Copy folder "[cronojobs](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/cronojobs/)"
-   to under the 'public root folder'.
+       to under the 'public root folder'.
    
-	For example: If web root folder is at C:\interpud\mysite\public\
-	            the "cronojobs" folder at C:\interpud\mysite\cronojobs\
+         For example: If web root folder is at C:\interpud\mysite\public\
+                     the "cronojobs" folder at C:\interpud\mysite\cronojobs\
 
   
   6.2. Update all XML files
