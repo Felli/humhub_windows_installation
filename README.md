@@ -15,7 +15,7 @@
    
    - Humhub is place on public root folder
 
-   - Public root folder is named public (not www)
+   - Public root folder is named "public" (not www")
 
    - It must be run/execute form under publics IIS folder to work 
    
@@ -23,7 +23,7 @@
 	             the .bat file must be at C:\interpud\mysite\
 
 
-4. To enable "pretyy URLs"
+4. To enable "pretty URLs"
 
      Edit 
 	        common.php 
