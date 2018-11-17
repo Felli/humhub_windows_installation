@@ -63,11 +63,11 @@ The instalation assumes some settings in order to work:
 
 To do it you have **to create your own .bat files and schedule them to run them on intervals, this is done via Windows Task Schedule**. On this code example, there are some **important paths to consider**:
 
-   6.1. Copy folder "[cronojobs](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/cronojobs/)"
+ 6.1. Copy folder "[cronojobs](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/cronojobs/)"
         to under the 'public root folder' for your website.
 
-       For example: If web root folder is at **C:\interpud\mysite**\public\
-                   the "cronojobs" folder at **C:\interpud\mysite**\cronojobs\
+   For example: If web root folder is at **C:\interpud\mysite**\public\
+               the "cronojobs" folder at **C:\interpud\mysite**\cronojobs\
 		   
 
    **NOTE**: our public root folder for a website is named "**public**" not "www" or "html" or....
@@ -75,12 +75,12 @@ To do it you have **to create your own .bat files and schedule them to run them 
 		   
 
 
-   6.2. Edit the .bat files and adjunt the PHP paths to php-win.exe
+ 6.2. Edit the .bat files and adjunt the PHP paths to php-win.exe
   
       * On example bat files path is "C:\PHP\php-7.0.x-nts-VC14-x64\php-win.exe". Please, fix it!
       
   
-   6.3. Update all XML files:
+ 6.3. Update all XML files:
   
       * Change on all XML files "my-humhub-web.com" to your real web name path (path to 'public root folder')
   
@@ -90,7 +90,7 @@ To do it you have **to create your own .bat files and schedule them to run them 
       They may work on windows 10 and other version but we have not test them.
 
 
-   6.4. Open task manager and import the XMLs
+ 6.4. Open task manager and import the XMLs
   
       * On server: Remember to set the task to run "Run whether user is logged on or not".
 
