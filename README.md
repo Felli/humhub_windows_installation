@@ -58,6 +58,7 @@ The instalation assumes some settings in order to work:
 ```
 
 6. Emulate cronojobs on Windows.
+To do it you have to create your own .bat files and schedule them to run them on intervals, this is done via Windows Task Schedule. On this code example, there are some important paths to consider:
 
    6.1. Copy folder "[cronojobs](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/cronojobs/)"
         to under the 'public root folder'.
