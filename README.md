@@ -85,8 +85,8 @@ The instalation assumes some settings in order to work:
 
 &nbsp; &nbsp; **6.2.** Edit the .bat files and adjunt the PHP paths to php-win.exe
   
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - On example bat files path is "C:\PHP\php-7.0.x-nts-VC14-x64\php-win.exe". 
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Please, fix it!
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - On example bat files path is "C:\PHP\php-7.0.x-nts-VC14-x64\php-win.exe".<br> 
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Please, fix it!
 <br><br>
 
 
@@ -99,7 +99,7 @@ The instalation assumes some settings in order to work:
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Update all paths on files from "x:\_path_to_my-humhub-web.com_\cronjobs\" to you path.
       
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - This XML files are tested on Windows 2016 and 2019 server.<br>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; They may work on windows 10 and other version but we have not test them.
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;They may work on windows 10 and other version but we have not test them.
 <br><br>
 
 
