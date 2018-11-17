@@ -14,17 +14,17 @@ The instalation assumes some settings in order to work:
 
 ### Steps
 
-1. Download zip version of Humhub from https://www.humhub.org/en/download
+**1**. Download zip version of Humhub from https://www.humhub.org/en/download
 
    and unzip to public IIS folder
 <br><br>
 
 
-2. Add "[web.host](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/web.config)" to public dir
+**2**. Add "[web.host](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/web.config)" to public dir
 <br><br>
 
 
-3. Add write permission using  "[_permission_humhub__RUN_as_ADMIN_.bat](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/_permission_humhub__RUN_as_ADMIN_.bat)"
+**3**. Add write permission using  "[_permission_humhub__RUN_as_ADMIN_.bat](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/_permission_humhub__RUN_as_ADMIN_.bat)"
    
    It must be a folder run/execute from folder under the 'public root folder'.
                   
@@ -32,11 +32,11 @@ The instalation assumes some settings in order to work:
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;the .bat file must be at C:\interpud\mysite\
 <br><br>
 
-4. Create database, go to humhub web and finish the instalation
+**4**. Create database, go to humhub web and finish the instalation
 <br><br>
 
 
-5. To enable "pretty URLs"
+**5**. To enable "pretty URLs"
 
      Edit
 	        common.php
@@ -60,7 +60,7 @@ The instalation assumes some settings in order to work:
 ```
 <br><br>
 
-6. **Emulate cronojobs on Windows**.
+**6**. **Emulate cronojobs on Windows**.
 <br><br>
  + To emulate it, you have **to create your own .bat files and schedule them to run them on intervals**, this is done via Windows Task Schedule. 
 <br><br>
@@ -72,9 +72,10 @@ The instalation assumes some settings in order to work:
 &nbsp; &nbsp; **6.1.** Copy folder "[cronojobs](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/cronojobs/)"
         to under the 'public root folder' for your website.
 
-  &nbsp; &nbsp; &nbsp; &nbsp; For example: If web root folder is at C:\interpud\mysite\public\
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; the "cronojobs" folder at C:\interpud\mysite\\**cronojobs**\
-		   
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; For example: <br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; If web root folder is at "C:\interpud\mysite\\**public**\\" <br><br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; the "cronojobs" folder at "C:\interpud\mysite\\**cronojobs**\\"<br>
+<br>		   
 
   &nbsp; &nbsp; &nbsp; &nbsp; **NOTE**: our public root folder for a website is named "**public**" not "www" or "html" or....
    Please, fix it if needed.
