@@ -5,11 +5,11 @@
 
 The instalation assumes some settings in order to work:
 
-   A. Humhub is at 'public root folder'. We have our webs at **"C:\_wbes_" not at "C:\interpud\..."**
+   A) Humhub is at 'public root folder'. We have our webs at **"C:\_wbes_" not at "C:\interpud\..."**
 
-   B. The 'public root folder' is named **"public"** (not "www").
+   B) The 'public root folder' is named **"public"** (not "www").
    
-   C. **PHP is at "C:\PHP\..."** not under "program files"
+   C) **PHP is at "C:\PHP\..."** not under "program files"
 
 
 
