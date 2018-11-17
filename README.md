@@ -5,7 +5,7 @@
 
 The instalation assumes some settings in order to work:
 
-&nbsp; &nbsp;   **A**) Humhub is at 'public root folder'. We have our webs at **"C:\_wbes_" not at "C:\interpud\..."**
+&nbsp; &nbsp;   **A**) Humhub is at 'public root folder'. 
 
 &nbsp; &nbsp;   **B**) The 'public root folder' is named **"public"** (not "www").
    
