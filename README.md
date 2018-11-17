@@ -76,11 +76,12 @@ To do it you have **to create your own .bat files and schedule them to run them 
   
    6.3. Update all XML files:
   
-      * Change on all XML files "my-humhub-web.com" to your real web name
+      * Change on all XML files "my-humhub-web.com" to your real web name path (path to 'public root folder')
   
       * Update all paths on files from "x:\_path_to_my-humhub-web.com_\cronjobs\" to you path.
       
-      * This XML files are tested on Windows 2016 and 2019 server. They may work on windows 10 and other version but we have not test them.
+      * This XML files are tested on Windows 2016 and 2019 server.
+      They may work on windows 10 and other version but we have not test them.
 
 
    6.4. Open task manager and import the XMLs
