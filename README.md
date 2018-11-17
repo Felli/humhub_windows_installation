@@ -80,24 +80,32 @@ The instalation assumes some settings in order to work:
 <br><br>   
 
 
+
+
 &nbsp; &nbsp; 6.2. Edit the .bat files and adjunt the PHP paths to php-win.exe
   
-   + On example bat files path is "C:\PHP\php-7.0.x-nts-VC14-x64\php-win.exe". Please, fix it!
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - On example bat files path is "C:\PHP\php-7.0.x-nts-VC14-x64\php-win.exe". 
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Please, fix it!
 <br><br>
-  
+
+
+
+
  &nbsp; &nbsp; 6.3. Update all XML files:
   
-   + Change on all XML files "my-humhub-web.com" to your real web name path (path to 'public root folder')
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Change on all XML files "my-humhub-web.com" to your real web name path (path to 'public root folder')
   
-   + Update all paths on files from "x:\_path_to_my-humhub-web.com_\cronjobs\" to you path.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Update all paths on files from "x:\_path_to_my-humhub-web.com_\cronjobs\" to you path.
       
-   + This XML files are tested on Windows 2016 and 2019 server.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - This XML files are tested on Windows 2016 and 2019 server.
       They may work on windows 10 and other version but we have not test them.
 <br><br>
 
+
+
  &nbsp; &nbsp; 6.4. Open task manager and import the XMLs
   
-   + On server: Remember to set the task to run "Run whether user is logged on or not".
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - On server: Remember to set the task to run "Run whether user is logged on or not".
 
 
 
