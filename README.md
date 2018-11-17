@@ -10,18 +10,18 @@ The instalation assumes some settings in order to work:
 &nbsp; &nbsp;   **B**) The 'public root folder' is named **"public"** (not "www").
    
 &nbsp; &nbsp;   **C**) **PHP is at "C:\PHP\..."** not under "program files"
-
+<br><br>
 
 ### Steps
 
 1. Download zip version of Humhub from https://www.humhub.org/en/download
 
    and unzip to public IIS folder
-
+<br><br>
 
 
 2. Add "[web.host](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/web.config)" to public dir
-
+<br><br>
 
 
 3. Add write permission using  "[_permission_humhub__RUN_as_ADMIN_.bat](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/_permission_humhub__RUN_as_ADMIN_.bat)"
@@ -30,9 +30,10 @@ The instalation assumes some settings in order to work:
                   
  &nbsp; &nbsp; &nbsp; &nbsp; For example: If web root folder is at C:\interpud\mysite\public\
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;the .bat file must be at C:\interpud\mysite\
+<br><br>
 
 4. Create database, go to humhub web and finish the instalation
-
+<br><br>
 
 
 5. To enable "pretty URLs"
@@ -57,6 +58,7 @@ The instalation assumes some settings in order to work:
 	    ]
 	];
 ```
+<br><br>
 
 6. **Emulate cronojobs on Windows**.
 
