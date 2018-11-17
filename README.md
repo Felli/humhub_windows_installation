@@ -92,7 +92,7 @@ The instalation assumes some settings in order to work:
 
 
 
- &nbsp; &nbsp; **6.3.** Update all XML files:
+ &nbsp; &nbsp; **6.3.** Update paths on all XML files:
   
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Change on all XML files "my-humhub-web.com" to your real web name path (path to 'public root folder')
   
@@ -106,7 +106,7 @@ The instalation assumes some settings in order to work:
 
  &nbsp; &nbsp; **6.4.** Open task manager and import the XMLs
   
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - On server: Remember to set the task to run "Run whether user is logged on or not".
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - On server: Remember to set the task to run "Run whether user is logged on or not".
 
 
 
