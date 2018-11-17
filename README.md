@@ -61,10 +61,11 @@ The instalation assumes some settings in order to work:
 <br><br>
 
 6. **Emulate cronojobs on Windows**.
-
+<br><br>
  + To emulate it, you have **to create your own .bat files and schedule them to run them on intervals**, this is done via Windows Task Schedule. 
+<br><br>
  + On this code example, there are some **important paths to consider**:
-
+<br><br>
 
 
 &nbsp; &nbsp; 6.1. Copy folder "[cronojobs](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/cronojobs/)"
@@ -76,13 +77,13 @@ The instalation assumes some settings in order to work:
 
   &nbsp; &nbsp; &nbsp; &nbsp; **NOTE**: our public root folder for a website is named "**public**" not "www" or "html" or....
    Please, fix it if needed.
-		   
+<br><br>   
 
 
 &nbsp; &nbsp; 6.2. Edit the .bat files and adjunt the PHP paths to php-win.exe
   
    + On example bat files path is "C:\PHP\php-7.0.x-nts-VC14-x64\php-win.exe". Please, fix it!
-      
+<br><br>
   
  &nbsp; &nbsp; 6.3. Update all XML files:
   
@@ -92,7 +93,7 @@ The instalation assumes some settings in order to work:
       
    + This XML files are tested on Windows 2016 and 2019 server.
       They may work on windows 10 and other version but we have not test them.
-
+<br><br>
 
  &nbsp; &nbsp; 6.4. Open task manager and import the XMLs
   
