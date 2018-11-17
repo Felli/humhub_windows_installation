@@ -66,8 +66,13 @@ To do it you have **to create your own .bat files and schedule them to run them 
    6.1. Copy folder "[cronojobs](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/cronojobs/)"
         to under the 'public root folder' for your website.
 
-       For example: If web root folder is at C:\interpud\mysite\public\
-                   the "cronojobs" folder at C:\interpud\mysite\cronojobs\
+       For example: If web root folder is at **C:\interpud\mysite**\public\
+                   the "cronojobs" folder at **C:\interpud\mysite**\cronojobs\
+		   
+	**NOTE**: our public root folder for a website is named "**public**" not "www" or "html" or....
+	Please, fix it if needed
+
+		   
 
 
 
