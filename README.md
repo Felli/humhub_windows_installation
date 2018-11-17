@@ -69,11 +69,10 @@ To do it you have **to create your own .bat files and schedule them to run them 
        For example: If web root folder is at **C:\interpud\mysite**\public\
                    the "cronojobs" folder at **C:\interpud\mysite**\cronojobs\
 		   
-	**NOTE**: our public root folder for a website is named "**public**" not "www" or "html" or....
-	Please, fix it if needed
 
+   **NOTE**: our public root folder for a website is named "**public**" not "www" or "html" or....
+   Please, fix it if needed.
 		   
-
 
 
    6.2. Edit the .bat files and adjunt the PHP paths to php-win.exe
