@@ -57,12 +57,12 @@ The instalation assumes some settings in order to work:
 	];
 ```
 
-6. Emulate cronojobs on Windows.
+6. **Emulate cronojobs on Windows**.
 
-To do it you have *to create your own .bat files and schedule them to run them on intervals, this is done via Windows Task Schedule*. On this code example, there are some *important paths to consider*:
+To do it you have **to create your own .bat files and schedule them to run them on intervals, this is done via Windows Task Schedule**. On this code example, there are some **important paths to consider**:
 
    6.1. Copy folder "[cronojobs](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/cronojobs/)"
-        to under the 'public root folder'.
+        to under the 'public root folder' for your website.
 
        For example: If web root folder is at C:\interpud\mysite\public\
                    the "cronojobs" folder at C:\interpud\mysite\cronojobs\
@@ -79,6 +79,8 @@ To do it you have *to create your own .bat files and schedule them to run them o
       * Change on all XML files "my-humhub-web.com" to your real web name
   
       * Update all paths on files from "x:\_path_to_my-humhub-web.com_\cronjobs\" to you path.
+      
+      * This XML files are tested on Windows 2016 and 2019 server. They may work on windows 10 and other version but we have not test them.
 
 
    6.4. Open task manager and import the XMLs
