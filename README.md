@@ -65,18 +65,23 @@ The instalation assumes some settings in order to work:
        For example: If web root folder is at C:\interpud\mysite\public\
                    the "cronojobs" folder at C:\interpud\mysite\cronojobs\
 
+
+
+   6.2. Edit the .bat files and adjunt the PHP paths to php-win.exe
   
-   6.2. Update all XML files:
+      * On example bat files path is "C:\PHP\php-7.0.x-nts-VC14-x64\php-win.exe". Please, fix it!
+      
+  
+   6.3. Update all XML files:
   
       * Change on all XML files "my-humhub-web.com" to your real web name
   
       * Update all paths on files from "x:\_path_to_my-humhub-web.com_\cronjobs\" to you path.
 
 
-   6.3. Open task manager and import the XMLs
+   6.4. Open task manager and import the XMLs
   
       * On server: Remember to set the task to run "Run whether user is logged on or not".
-
 
 
 
