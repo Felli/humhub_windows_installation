@@ -5,11 +5,11 @@
 
 The instalation assumes some settings in order to work:
 
-   A) Humhub is at 'public root folder'. We have our webs at **"C:\_wbes_" not at "C:\interpud\..."**
+&nbsp; &nbsp;   **A**) Humhub is at 'public root folder'. We have our webs at **"C:\_wbes_" not at "C:\interpud\..."**
 
-   B) The 'public root folder' is named **"public"** (not "www").
+&nbsp; &nbsp;   **B**) The 'public root folder' is named **"public"** (not "www").
    
-   C) **PHP is at "C:\PHP\..."** not under "program files"
+&nbsp; &nbsp;   **C**) **PHP is at "C:\PHP\..."** not under "program files"
 
 
 
@@ -29,8 +29,8 @@ The instalation assumes some settings in order to work:
    
    It must be a folder run/execute from folder under the 'public root folder'.
                   
-         For example: If web root folder is at C:\interpud\mysite\public\
-                      the .bat file must be at C:\interpud\mysite\
+ &nbsp; &nbsp; &nbsp; &nbsp; For example: If web root folder is at C:\interpud\mysite\public\
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;the .bat file must be at C:\interpud\mysite\
 
 4. Create database, go to humhub web and finish the instalation
 
@@ -61,13 +61,14 @@ The instalation assumes some settings in order to work:
 
 6. **Emulate cronojobs on Windows**.
 
-To do it you have **to create your own .bat files and schedule them to run them on intervals, this is done via Windows Task Schedule**. On this code example, there are some **important paths to consider**:
+ + To emulate it, you have **to create your own .bat files and schedule them to run them on intervals**, this is done via Windows Task Schedule. 
+ + On this code example, there are some **important paths to consider**:
 
  6.1. Copy folder "[cronojobs](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/cronojobs/)"
         to under the 'public root folder' for your website.
 
-   For example: If web root folder is at **C:\interpud\mysite**\public\
-               the "cronojobs" folder at **C:\interpud\mysite**\cronojobs\
+   For example: If web root folder is at C:\interpud\mysite\public\
+               the "cronojobs" folder at C:\interpud\mysite\**cronojobs**\
 		   
 
    **NOTE**: our public root folder for a website is named "**public**" not "www" or "html" or....
