@@ -73,8 +73,8 @@ The instalation assumes some settings in order to work:
         to under the 'public root folder' for your website.
 
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; For example: <br>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; If web root folder is at "C:\interpud\mysite\\**public**\\" <br><br>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; the "cronojobs" folder at "C:\interpud\mysite\\**cronojobs**\\"<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; If web root folder is at "C:\interpud\mysite\\**public**\\" <br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; the "cronojobs" folder at "C:\interpud\mysite\\**cronojobs**\\"<br>
 <br>		   
 
   &nbsp; &nbsp; &nbsp; &nbsp; **NOTE**: our public root folder for a website is named "**public**" not "www" or "html" or....
