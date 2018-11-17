@@ -12,7 +12,6 @@ The instalation assumes some settings in order to work:
 &nbsp; &nbsp;   **C**) **PHP is at "C:\PHP\..."** not under "program files"
 
 
-
 ### Steps
 
 1. Download zip version of Humhub from https://www.humhub.org/en/download
@@ -65,14 +64,15 @@ The instalation assumes some settings in order to work:
  + On this code example, there are some **important paths to consider**:
 
 
+
 &nbsp; &nbsp; 6.1. Copy folder "[cronojobs](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/cronojobs/)"
         to under the 'public root folder' for your website.
 
   &nbsp; &nbsp; &nbsp; &nbsp; For example: If web root folder is at C:\interpud\mysite\public\
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; the "cronojobs" folder at C:\interpud\mysite\\**cronojobs**\
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;the "cronojobs" folder at C:\interpud\mysite\\**cronojobs**\
 		   
 
-   **NOTE**: our public root folder for a website is named "**public**" not "www" or "html" or....
+  &nbsp; &nbsp; &nbsp; &nbsp; **NOTE**: our public root folder for a website is named "**public**" not "www" or "html" or....
    Please, fix it if needed.
 		   
 
