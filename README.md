@@ -68,7 +68,8 @@ The instalation assumes some settings in order to work:
 <br><br>
 
 
-&nbsp; &nbsp; 6.1. Copy folder "[cronojobs](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/cronojobs/)"
+
+&nbsp; &nbsp; **6.1.** Copy folder "[cronojobs](https://github.com/Buliwyfa/humhub_windows_installation/blob/master/cronojobs/)"
         to under the 'public root folder' for your website.
 
   &nbsp; &nbsp; &nbsp; &nbsp; For example: If web root folder is at C:\interpud\mysite\public\
@@ -82,7 +83,7 @@ The instalation assumes some settings in order to work:
 
 
 
-&nbsp; &nbsp; 6.2. Edit the .bat files and adjunt the PHP paths to php-win.exe
+&nbsp; &nbsp; **6.2.** Edit the .bat files and adjunt the PHP paths to php-win.exe
   
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - On example bat files path is "C:\PHP\php-7.0.x-nts-VC14-x64\php-win.exe". 
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Please, fix it!
@@ -91,19 +92,19 @@ The instalation assumes some settings in order to work:
 
 
 
- &nbsp; &nbsp; 6.3. Update all XML files:
+ &nbsp; &nbsp; **6.3.** Update all XML files:
   
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Change on all XML files "my-humhub-web.com" to your real web name path (path to 'public root folder')
   
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Update all paths on files from "x:\_path_to_my-humhub-web.com_\cronjobs\" to you path.
       
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - This XML files are tested on Windows 2016 and 2019 server.
-      They may work on windows 10 and other version but we have not test them.
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - This XML files are tested on Windows 2016 and 2019 server.<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; They may work on windows 10 and other version but we have not test them.
 <br><br>
 
 
 
- &nbsp; &nbsp; 6.4. Open task manager and import the XMLs
+ &nbsp; &nbsp; **6.4.** Open task manager and import the XMLs
   
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - On server: Remember to set the task to run "Run whether user is logged on or not".
 
