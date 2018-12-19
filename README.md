@@ -112,4 +112,5 @@ The instalation assumes some settings in order to work:
 
 
 
-
+SOURCES/CREDIT:
+web.host based on https://github.com/h5bp/server-configs-iis/tree/master/server%20config
