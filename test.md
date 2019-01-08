@@ -1,12 +1,12 @@
 # SSH: change port to 22022
 
-1. [Port selection](##Port Selection)
-2. [Change Port for SSH to 22022](##Change Port for SSH to 22022)
+1. [Port selection](## Port Selection)
+2. [Change Port for SSH to 22022](## Change Port for SSH to 22022)
 
 
 
-
-##Port Selection
+<br>
+## Port Selection
 
 ICAAN classifies ports in two three categories:
 
