@@ -1,4 +1,3 @@
-<style type="text/css">
 // resets
 s { font-style: normal; } //strike-through
 em { font-style: normal; font-weight: bold; } //italic emphasis
@@ -6,7 +5,7 @@ em { font-style: normal; font-weight: bold; } //italic emphasis
 // colors
 s { color: green }
 em { color: blue }
-</style>
+
 
 # SSH: change port to 22022
 
