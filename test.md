@@ -1,12 +1,3 @@
-// resets
-s { font-style: normal; } //strike-through
-em { font-style: normal; font-weight: bold; } //italic emphasis
-
-// colors
-s { color: green }
-em { color: blue }
-
-
 # SSH: change port to 22022
 
 1. [Port selection](## Port Selection)
