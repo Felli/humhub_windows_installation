@@ -1,7 +1,7 @@
 # SSH: change port to 22022
 
-1. [Port selection](## Port Selection)
-1. [Change Port for SSH to 22022](## Change Port for SSH to 22022)
+1. [Port selection](##Port Selection)
+1. [Change Port for SSH to 22022](##Change Port for SSH to 22022)
 
 
 
