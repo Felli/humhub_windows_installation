@@ -2,8 +2,11 @@
 
 1. [Port selection](## Port Selection)
 2. [Change Port for SSH to 22022](## Change Port for SSH to 22022)
-
-
+3. [Add port to firewall](## Add port to firewall)
+4. [Update SELinux](## Update SELinux)
+5. [Restart & Check](## Restart & Check)
+6. [Online Tests](## Online Tests)
+7. [Sources](## Sources)
 
 <br>
 ## Port Selection
@@ -35,55 +38,108 @@ vi /etc/ssh/sshd_config
 
 Add Pot 22022 below #Port 22
 
-<div style="color:white;background:black;">
-\# default value.
 
-\# If you want to change the port on a SELinux system, you have to tell
-\# SELinux about this change.
-\# semanage port -a -t ssh_port_t -p tcp #PORTNUMBER
-\#
-\#Port 22
+```
+# default value.
+
+# If you want to change the port on a SELinux system, you have to tell
+# SELinux about this change.
+# semanage port -a -t ssh_port_t -p tcp #PORTNUMBER
+#
+#Port 22
 ==Port 22022==
-\#AddressFamily any
-\#ListenAddress 0.0.0.0
-\#ListenAddress ::
-</div>
+#AddressFamily any
+#ListenAddress 0.0.0.0
+#ListenAddress ::
+
+```
 
 
-Add port to firewall
+
+
+<br>
+## Add port to firewall
+`
 firewall-cmd --permanent --zone=public --add-port=22022/tcp
-firewall-cmd --reload	
+`
+`
+firewall-cmd --reload
+`
 
 
-SELinux 
+
+
+
+
+<br>
+## Update SELinux
+
 SELinux may avoid the SSH daemon going to use a different port
 
-	Check for SELinux 
-	Sestatus
+Check if SELinux is enable
 
-If so
+`
+Sestatus
+`
 
+If enable add rule
+
+`
 semanage port -a -t ssh_port_t -p tcp 22022
+`
 
-If ERROR on	semanege
 
-	Need to installation it
+<br>
+**If ERROR** on	semanege: Need to installation it
 
-		sudo yum -y install policycoreutils-python
+`
+sudo yum -y install policycoreutils-python
+`
 
+
+
+
+<br>
+## Restart & Check
 
 Re start SSH service
 
+`
 systemctl restart sshd.service
+`
 
+<br>
 Check it
+`
 systemctl status sshd
-
+`
+and
+`
 ss -tlpn| grep ssh
+`
 
 
-ONLINE TEST
+
+
+
+
+<br>
+## Online Tests
 
 https://sshcheck.com/
 
 https://es.infobyip.com/sshservertest.php  [SPAIN]
+
+
+
+
+
+<br>
+## Sources
+
+
+
+
+
+
+:smile:
