@@ -22,6 +22,6 @@ REM PAUSE
 
 REM  RUN Yii2 command
 REM --------------------------------------------------------
-"C:\PHP\php-7.0.x-nts-VC14-x64\php-win.exe" yii cron/daily
+"C:\PHP\php-7.0.x-nts-VC14-x64\php-win.exe" yii cron/run
 
 REM PAUSE
